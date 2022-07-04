@@ -1,0 +1,106 @@
+#menu-section{
+    width:100%;
+    height: 120px;
+    float: left;
+}
+
+#menu-logo{
+    width:50%;
+    float: left;
+}
+#menu-logo img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+#menu-menu{
+    width:50%;
+    float: left;
+    
+}
+#menu-menu ul{
+    list-style: none;
+    margin: 0;
+    text-align: right;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+#menu-menu ul li{
+    display: inline;
+    padding: 0 30px;
+}
+#menu-menu ul li a{
+    text-decoration: none;
+    color: brown;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+#menu-menu ul li a:hover{
+    color: rgb(0, 0, 0);
+    transition: 1s ease-in-out;
+}
+.current-page{
+    color: rgb(0, 0, 0)!important;
+    text-decoration: underline!important;
+}
+
+#hero-section{
+    width: 100%;
+    height: 80vh;
+    float: left;
+}
+
+#hero-right{
+    width: 50%;
+    float: left;
+    padding-top: 12vh;
+}
+#hero-right h1{
+    text-transform: capitalize;
+    font-size: 3em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#hero-right h3{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 1.5em;
+    color: rgb(29, 48, 147);
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+#hero-right p{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 30px;
+}
+#hero-right button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin-left: 20px;
+}
+#hero-right button a{
+    text-decoration: none;
+    color: brown;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+#hero-left{
+    width: 50%;
+    float: left;
+}
+#hero-left img{
+    width: 100%;
+}
